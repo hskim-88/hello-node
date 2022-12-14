@@ -1,12 +1,12 @@
-var express = require('express');
-var app = express();
+let express = require('express');
+let app = express();
 
 app.get('/', function (_req: any, res: { send: (arg0: string) => void; }) {
   res.send('Hello World!');
 });
 
 app.get('/version', function (_req: any, res: { send: (arg0: string) => void; }) {
-  res.send('version3');
+  res.send('version4');
 });
 
 app.listen(3000, function () {
