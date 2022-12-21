@@ -5,7 +5,7 @@ app.get('/', function (_req, res) {
     res.send('Hello World!');
 });
 app.get('/version', function (_req, res) {
-    res.send('version5');
+    res.send('version6');
 });
 app.listen(3000, function () {
     console.log('app listening on port 3000!');

@@ -6,7 +6,7 @@ app.get('/', function (_req: any, res: { send: (arg0: string) => void; }) {
 });
 
 app.get('/version', function (_req: any, res: { send: (arg0: string) => void; }) {
-  res.send('version5');
+  res.send('version6');
 });
 
 app.listen(3000, function () {
